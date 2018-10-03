@@ -17,6 +17,6 @@ app.use(express.static('file'))
 
 
 /**********keep awake********************/
-setInterval(function() {
-    http.get("https://eecs-4314.herokuapp.com/");
-}, 300000); // every 5 minutes (300000)
+// setInterval(function() {
+//     http.get("https://eecs-4314.herokuapp.com/");
+// }, 300000); // every 5 minutes (300000)
